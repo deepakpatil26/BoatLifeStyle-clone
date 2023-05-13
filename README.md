@@ -1,25 +1,25 @@
 # private-furniture-6305 ( Clone - BoatLifeStyle.com )
 This project is a clone of boAt Lifestyle website. boAt is your digital shopping assistant dedicated to saving you time, money and assure you get a quality product. With boAt, you can view a product's availability, price. We made use of Local storage to store and retrieve data. The website includes features such as: 
-•	A home page with featured products and categories 
-•	Product detail pages with images, descriptions, and pricing information 
-•	A shopping cart to keep track of selected items 
-•	A checkout process to complete purchases
+  •	A home page with featured products and categories 
+  •	Product detail pages with images, descriptions, and pricing information 
+  •	A shopping cart to keep track of selected items 
+  •	A checkout process to complete purchases
 Completed By 5 developers in five days 
-•	Channa Keshava 
-•	Deepak Patil 
-•	Krushna Chavan 
-•	Ashish Yadav 
-•	Shivom Shiv
+  •	Channa Keshava 
+  •	Deepak Patil 
+  •	Krushna Chavan 
+  •	Ashish Yadav 
+  •	Shivom Shiv
 Getting Started To get started with the BoatLifeStyle.com Clone, follow these steps:
-•	Clone the repository to your local machine using git clone https://github.com/OnkarK0273/penitent-degree-5872 
-•	to the project directory and install dependencies using npm install. 
-•	Start the development server using npm start. 
-•	Open the website in your browser by navigating to http://localhost:3000 
+  •	Clone the repository to your local machine using git clone https://github.com/OnkarK0273/penitent-degree-5872 
+  •	to the project directory and install dependencies using npm install. 
+  •	Start the development server using npm start. 
+  •	Open the website in your browser by navigating to http://localhost:3000 
 Contributing This project was developed by a team of 5 members, but contributions from others are welcome. If you would like to contribute, please follow these steps:
-•	Fork the repository to your own GitHub account. 
-•	Create a new branch for your changes using git checkout -b your-branch-name. Make changes to the code and commit your changes using git commit -m "Your commit message". 
-•	Push your changes to your forked repository using git push origin your-branch-name. 
-•	Create a pull request to merge your changes into the main branch of the original repository.
+  •	Fork the repository to your own GitHub account. 
+  •	Create a new branch for your changes using git checkout -b your-branch-name. Make changes to the code and commit your changes using git commit -m "Your commit message". 
+  •	Push your changes to your forked repository using git push origin your-branch-name. 
+  •	Create a pull request to merge your changes into the main branch of the original repository.
 
 Snapshots
 
