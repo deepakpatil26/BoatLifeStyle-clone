@@ -31,13 +31,13 @@ Dive into a meticulously crafted **BoatLifeStyle** website clone that redefines 
 
 ## 👥 Dream Team
 
-| Developer | Role | Contribution |
-|----------|------|--------------|
-| 🧑‍💻 Channa Keshava | Team Member | Frontend Architecture |
-| 🧑‍💻 Deepak Patil | Team Lead | Project Coordination |
-| 🧑‍💻 Krushna Chavan | Developer | UI/UX Design |
-| 🧑‍💻 Ashish Yadav | Developer | Backend Logic |
-| 🧑‍💻 Shivom Shiv | Developer | Performance Optimization |
+| Developer | Role |
+|----------|------|
+| 🧑‍💻 Channa Keshava | Team Lead |
+| 🧑‍💻 Deepak Patil | Team Member |
+| 🧑‍💻 Krushna Chavan | Team Member |
+| 🧑‍💻 Ashish Yadav | Team Member |
+| 🧑‍💻 Shivom Shiv | Team Member |
 
 ### 🕒 Project Timeline
 ⚡ **Developed in Just 5 Intense Days**
