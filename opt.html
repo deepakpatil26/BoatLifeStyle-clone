@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP PAGE</title>
+    <link rel="stylesheet" href="./styles/opt.css" />
+  </head>
+
+  <body>
+    <!-- Top Banner -->
+    <div id="top">
+      <p>All your favourite boAt products at heavy bargains. Shop NOW!</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
+            alt="boAt Logo"
+          />
+        </a>
+      </div>
+
+      <div class="nav-links">
+        <select id="shop">
+          <option value="">Shop</option>
+        </select>
+
+        <div>boAt | DC</div>
+
+        <a href="offerzone.html" id="offer">OfferZone</a>
+
+        <select id="more">
+          <option value="">More</option>
+          <option value="daily-deals.html">Daily Deals</option>
+          <option value="gifting.html">Gifting</option>
+          <option value="floats-boats.html">Do What Floats Your boAt</option>
+          <option value="meet-boatheards.html">Meet the boAtheads</option>
+          <option value="corporate-orders.html">Corporate Orders</option>
+          <option value="earn-rs100.html">Earn Rs.100</option>
+          <option value="careers.html">Careers</option>
+        </select>
+
+        <div class="search-bar">
+          <input id="search" type="text" placeholder="Search" />
+        </div>
+
+        <div class="icon-links">
+          <a href="Login.html">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
+              alt="Login"
+            />
+          </a>
+          <a href="Gift.html">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809"
+              alt="Gifts"
+            />
+          </a>
+          <a href="payment.html">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
+              alt="Payment"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <h1>OTP Page</h1>
+      <hr />
+
+      <!-- OTP Form -->
+      <div id="otp-container">
+        <form id="otpForm">
+          <label for="otp">Enter OTP</label>
+          <input
+            type="number"
+            id="otp"
+            name="otp"
+            placeholder="Enter your 4-digit OTP"
+            maxlength="4"
+            required
+          />
+          <button id="submitBtn" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+
+  <script src="./scripts/opt.js"></script>
+</html>

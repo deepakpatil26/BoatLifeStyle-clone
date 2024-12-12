@@ -1,0 +1,318 @@
+/* ================= General Reset ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* ================= Body ================= */
+body {
+  background-color: black;
+}
+
+/* ================= Header & Navigation ================= */
+#top {
+  background-color: red;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 25% 40% 35%;
+  grid-template-rows: 100px;
+  gap: 10px;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+}
+
+#navbar > div {
+  box-sizing: border-box;
+}
+
+#navbar div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+#navbar div:nth-child(2) > div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+#navbar div:nth-child(3) {
+  display: grid;
+  grid-template-columns: 60% repeat(3, 10%);
+  grid-template-rows: 100px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+#navbar div:nth-child(3) > div {
+  display: grid;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#navbar div:nth-child(3) > div img {
+  width: 40px;
+  height: 35px;
+}
+
+#boto {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#offer {
+  text-align: justify;
+  padding-left: 0;
+}
+
+#shop,
+#more {
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+/* ================= Search Bar ================= */
+#search {
+  width: 98%;
+  height: 60px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;
+  background-color: white;
+}
+
+/* ================= Main Box/Grid Container ================= */
+#box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 10px 20px;
+}
+
+#box > div {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#box > div > img {
+  width: 100%;
+  height: 68%;
+  background-color: gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#box > div > h4,
+#box > div > h1,
+#box > div > button {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#box > div > h1 {
+  font-size: 19px;
+  color: white;
+}
+
+#box > div > button {
+  position: absolute;
+  width: 20%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= Offer Zone ================= */
+.offer-zone {
+  background-color: red;
+  border: 1px solid;
+}
+
+.offer-zone > a > p {
+  height: 33px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+/* ================= Sticky Navigation ================= */
+.sticky {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+
+.nav-bar-main {
+  background-color: black;
+  height: 51px;
+}
+
+.nav-inner-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-inner-bar > img {
+  width: 7%;
+  margin-left: 25px;
+}
+
+.shop-list {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  list-style: none;
+  display: none;
+}
+
+.more-option {
+  background-color: black;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 18px;
+  margin-left: 330px;
+  margin-top: 13px;
+}
+
+/* ================= Button Styles ================= */
+.addBtn {
+  background: #ff0000;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: red;
+  color: white;
+}
+
+/* ================= Grid & Best Section ================= */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#best {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
+}
+
+/* ================= Blog Section ================= */
+#blog {
+  width: 100%;
+  background-color: rgb(220, 220, 220);
+  margin-top: 80px;
+  padding: 20px;
+}
+
+#nitesh {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.blogs > div > img {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+
+.blogs > div > img:hover {
+  width: 101%;
+  height: 260px;
+}
+
+/* ================= Button Hover Effects ================= */
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5 {
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn1 {
+  color: red;
+  border: 1px solid red;
+}
+
+#btn1:hover {
+  background-color: red;
+  color: white;
+}
+
+#btn2 {
+  background-color: red;
+  color: white;
+  padding: 15px;
+}
+
+#btn2:hover {
+  background-color: darkred;
+}
