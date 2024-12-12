@@ -2,7 +2,7 @@
 
 ## 🌟 Project Showcase: A Cutting-Edge E-Commerce Experience
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=BoatLifeStyle+Clone+Project)
+![Project Banner](https://github.com/deepakpatil26/BoatLifeStyle-clone/assets/103636083/3e1eae4c-6fd2-4fe7-803e-5b60c82491f5)
 
 ### 💡 Project Vision
 Dive into a meticulously crafted **BoatLifeStyle** website clone that redefines online shopping excellence. Our team has engineered a pixel-perfect replica that captures the essence of modern e-commerce functionality and design.
