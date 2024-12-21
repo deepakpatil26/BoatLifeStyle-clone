@@ -1,127 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wireless Earbuds</title>
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/airpods.css" />
-  </head>
-  <body>
-    <div id="red_navbar">
-      <p>All your favorite boAt products at heavy bargains. Shop NOW!</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireless Earbuds</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/airpods.css" />
+</head>
+
+<body>
+  <div id="red_navbar">
+    <p>All your favorite boAt products at heavy bargains. Shop NOW!</p>
+  </div>
+
+  <div id="main_navbar"></div>
+
+  <div id="largeimage">
+    <p>Home / Wireless Earbuds</p>
+  </div>
+
+  <h1>Wireless Earbuds</h1>
+
+  <div id="filter">
+    <div id="filter1">
+      <img src="https://th.bing.com/th/id/OIP.JpbTXhedxvTh-oL-01FYiAAAAA?pid=ImgDet&w=354&h=354&rs=1"
+        alt="Filter Icon" />
+      <p>Show filter</p>
     </div>
-
-    <div id="main_navbar"></div>
-
-    <div id="largeimage">
-      <p>Home / Wireless Earbuds</p>
+    <div id="filter2">
+      <p>Sort by</p>
+      <select id="sort">
+        <option value="Featured">Featured</option>
+        <option value="Bestselling">Best selling</option>
+        <option value="lowtohigh">Price, low to high</option>
+        <option value="hightolow">Price, high to low</option>
+        <option value="oldtonew">Date, old to new</option>
+      </select>
     </div>
+  </div>
 
-    <h1>Wireless Earbuds</h1>
-
-    <div id="filter">
-      <div id="filter1">
-        <img
-          src="https://th.bing.com/th/id/OIP.JpbTXhedxvTh-oL-01FYiAAAAA?pid=ImgDet&w=354&h=354&rs=1"
-          alt="Filter Icon"
-        />
-        <p>Show filter</p>
+  <div id="sidebar">
+    <div id="firstdiv">
+      <div id="red">
+        <p>Filter</p>
+        <img id="toggle"
+          src="https://th.bing.com/th/id/R.0a270a3d0c1900aea9693aa89cc3b9aa?rik=YmvjSlrQUdjFkw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fRed-Cross-Mark-PNG-File.png&ehk=o90FjHpEJTf7L8SV3Q1ndbMBsybix1eLH95Nbh%2b9uwg%3d&risl=&pid=ImgRaw&r=0"
+          alt="Close Filter" />
       </div>
-      <div id="filter2">
-        <p>Sort by</p>
-        <select id="sort">
-          <option value="Featured">Featured</option>
-          <option value="Bestselling">Best selling</option>
-          <option value="lowtohigh">Price, low to high</option>
-          <option value="hightolow">Price, high to low</option>
-          <option value="oldtonew">Date, old to new</option>
-        </select>
+      <div id="availability">
+        <span>Availability</span>
+        <ul>
+          <li>
+            <label><input type="checkbox" /> In stock (41)</label>
+          </li>
+          <li>
+            <label><input type="checkbox" /> Out of stock (43)</label>
+          </li>
+        </ul>
       </div>
-    </div>
-
-    <div id="sidebar">
-      <div id="firstdiv">
-        <div id="red">
-          <p>Filter</p>
-          <img
-            id="toggle"
-            src="https://th.bing.com/th/id/R.0a270a3d0c1900aea9693aa89cc3b9aa?rik=YmvjSlrQUdjFkw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fRed-Cross-Mark-PNG-File.png&ehk=o90FjHpEJTf7L8SV3Q1ndbMBsybix1eLH95Nbh%2b9uwg%3d&risl=&pid=ImgRaw&r=0"
-            alt="Close Filter"
-          />
-        </div>
-        <div id="availability">
-          <span>Availability</span>
-          <ul>
-            <li>
-              <label><input type="checkbox" /> In stock (41)</label>
-            </li>
-            <li>
-              <label><input type="checkbox" /> Out of stock (43)</label>
-            </li>
-          </ul>
-        </div>
-        <hr />
-        <div id="price">
-          <span>Price</span>
-          <button id="krushna">Low to High</button>
-          <button id="krushna2">High to Low</button>
-        </div>
-      </div>
-      <div id="second_div">
-        <h3>VIEW RESULTS</h3>
+      <hr />
+      <div id="price">
+        <span>Price</span>
+        <button id="krushna">Low to High</button>
+        <button id="krushna2">High to Low</button>
       </div>
     </div>
-
-    <div id="products_data">
-      <!-- Product data will be appended here -->
+    <div id="second_div">
+      <h3>VIEW RESULTS</h3>
     </div>
+  </div>
 
-    <div id="lowerpart">
-      <h1>Airdopes - The Top Rated Bluetooth Earbuds in the Market</h1>
-      <p>
-        Airdopes offer the most incredible listening experience with
-        revolutionary design. Truly in-ear wireless with no cables, no
-        connectors, and no hassles...
-      </p>
-      <p>
-        Powered with boAt’s Insta Wake n’ Pair™ technology & ASAP™ Fast Charge,
-        these true wireless earbuds power on and connect instantly right out of
-        the charging case...
-      </p>
-      <p>
-        boAt Airdopes come with passive and active noise cancellation technology
-        that cancels out external noise, delivering only the sound of your media
-        to your ears...
-      </p>
-      <p>
-        Made from fine and premium materials, these Bluetooth earbuds are
-        comfortable and secure...
-      </p>
-      <p>
-        Love adventure? Airdopes are here for you. The IPX rating ensures water
-        and sweat resistance...
-      </p>
-      <p>
-        Airdopes are perfect for WFH calls or meetings, with microphones that
-        accurately pick up your voice while cancelling out background noise...
-      </p>
-      <p>
-        Style it up with our best earbuds, the new way to flaunt your vibe! From
-        the Queen of Prints, Masaba's funky designs to our TRebel range, boAt
-        offers earbuds to die for...
-      </p>
-    </div>
+  <div id="products_data">
+    <!-- Product data will be appended here -->
+  </div>
 
-    <div id="lastbar">
-      <p>
-        India's fastest growing audio & wearables brand. Explore wireless
-        earphones, earbuds, headphones, smart watches, and more!
-      </p>
-    </div>
+  <div id="lowerpart">
+    <h1>Airdopes - The Top Rated Bluetooth Earbuds in the Market</h1>
+    <p>
+      Airdopes offer the most incredible listening experience with
+      revolutionary design. Truly in-ear wireless with no cables, no
+      connectors, and no hassles...
+    </p>
+    <p>
+      Powered with boAt’s Insta Wake n’ Pair™ technology & ASAP™ Fast Charge,
+      these true wireless earbuds power on and connect instantly right out of
+      the charging case...
+    </p>
+    <p>
+      boAt Airdopes come with passive and active noise cancellation technology
+      that cancels out external noise, delivering only the sound of your media
+      to your ears...
+    </p>
+    <p>
+      Made from fine and premium materials, these Bluetooth earbuds are
+      comfortable and secure...
+    </p>
+    <p>
+      Love adventure? Airdopes are here for you. The IPX rating ensures water
+      and sweat resistance...
+    </p>
+    <p>
+      Airdopes are perfect for WFH calls or meetings, with microphones that
+      accurately pick up your voice while cancelling out background noise...
+    </p>
+    <p>
+      Style it up with our best earbuds, the new way to flaunt your vibe! From
+      the Queen of Prints, Masaba's funky designs to our TRebel range, boAt
+      offers earbuds to die for...
+    </p>
+  </div>
 
-    <div id="footer_part"></div>
+  <div id="lastbar">
+    <p>
+      India's fastest growing audio & wearables brand. Explore wireless
+      earphones, earbuds, headphones, smart watches, and more!
+    </p>
+  </div>
 
-    <script src="./scripts/airpods.js" type="module"></script>
-  </body>
+  <div id="footer_part"></div>
+
+  <script src="./scripts/airpods.js" type="module"></script>
+</body>
+
 </html>

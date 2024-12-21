@@ -1,154 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link
-      rel="icon"
-      href="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-  </head>
-  <body>
-    <button id="myBtn" title="Go to top">Top</button>
 
-    <div id="red_navbar">
-      <p>All Your favorite boat products at heavy bargains. Shop NOW!</p>
-    </div>
-    <div id="main_navbar"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="icon" href="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg"
+    type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+</head>
 
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone-banner_1_2000x.jpg?v=1659681411"
-          alt="Slideshow Image 1"
-          style="width: 100%"
-        />
-      </div>
+<body>
+  <button id="myBtn" title="Go to top">Top</button>
 
-      <div class="mySlides fade">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner-Wave-Select-Desktop_3_2000x.gif?v=1660741182"
-          alt="Slideshow Image 2"
-          style="width: 100%"
-        />
-      </div>
+  <div id="red_navbar">
+    <p>All Your favorite boat products at heavy bargains. Shop NOW!</p>
+  </div>
+  <div id="main_navbar"></div>
 
-      <div class="mySlides fade">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_3_2000x.jpg?v=1659936537"
-          alt="Slideshow Image 3"
-          style="width: 100%"
-        />
-      </div>
-
-      <div class="mySlides fade">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/deal-of-the-day-aug-2_2000x.jpg?v=1660912362"
-          alt="Slideshow Image 4"
-          style="width: 100%"
-        />
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone-banner_1_2000x.jpg?v=1659681411"
+        alt="Slideshow Image 1" style="width: 100%" />
     </div>
 
-    <!-- Best Seller Section -->
-    <h1 class="head">Best Seller</h1>
-    <div id="best_seller">
-      <!-- Product Cards -->
-      <div class="product">
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376"
-            alt="boat air drops-131"
-          />
-        </div>
-        <div class="price_details">
-          <h2 class="name">boat air drops-131</h2>
-          <p class="reviews">&#9733;4.6 | 958 reviews</p>
-          <p class="price">
-            &#8377;1999 <span class="scrtch">&#8377;2990</span>
-          </p>
-          <p class="yousave">You Save: ₹ 1891 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
-      </div>
-
-      <!-- Repeat for other products -->
-      <div class="product">
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569"
-            alt="boat air dropsxtra-132"
-          />
-        </div>
-        <div class="price_details">
-          <h2 class="name">boat air dropsxtra-132</h2>
-          <p class="reviews">&#9733;4.7 | 98 reviews</p>
-          <p class="price">
-            &#8377;2999 <span class="scrtch">&#8377;4990</span>
-          </p>
-          <p class="yousave">You Save: ₹ 1800 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
-      </div>
-
-      <!-- Add more products as needed -->
-    </div>
-
-    <!-- Daily Deals Section -->
-    <h1 class="head">Daily Deals</h1>
-    <div id="daily_deals">
-      <!-- Repeat product structure for daily deals -->
-    </div>
-
-    <!-- Video Section -->
-    <div id="gif">
-      <div class="bhoooooom">
-        <div class="video">
-          <video width="320" height="400" controls autoplay loop>
-            <source
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_rq_O5tqSZIIgR13t0gUaN_card_thumbnail.mp4?v=8992424439691853575"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div class="pric_details">
-          <h2 class="name">boat air drops-1312</h2>
-          <p class="reviews">&#9733;4.6 | 1113 reviews</p>
-          <p class="price">
-            &#8377;1999 <span class="scrtch">&#8377;2990</span>
-          </p>
-          <p class="yousave">You Save: ₹ 1891 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
-      </div>
-
-      <!-- Repeat for other video sections -->
-    </div>
-
-    <!-- Footer Section -->
-    <div id="footer_img">
+    <div class="mySlides fade">
       <img
-        id="onwtwothree"
-        src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Fotter-Awards_11-02-2022_5d6a9e4a-d3d4-434b-8846-4403e92c3573_1995x.png?v=1651217615"
-        alt="Footer Awards"
-        style="width: 100%"
-      />
+        src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner-Wave-Select-Desktop_3_2000x.gif?v=1660741182"
+        alt="Slideshow Image 2" style="width: 100%" />
     </div>
 
-    <div id="footer_part"></div>
-  </body>
+    <div class="mySlides fade">
+      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_3_2000x.jpg?v=1659936537"
+        alt="Slideshow Image 3" style="width: 100%" />
+    </div>
+
+    <div class="mySlides fade">
+      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/deal-of-the-day-aug-2_2000x.jpg?v=1660912362"
+        alt="Slideshow Image 4" style="width: 100%" />
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- Best Seller Section -->
+  <h1 class="head">Best Seller</h1>
+  <div id="best_seller">
+    <!-- Product Cards -->
+    <div class="product">
+      <div class="p_div">
+        <img class="products"
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376"
+          alt="boat air drops-131" />
+      </div>
+      <div class="price_details">
+        <h2 class="name">boat air drops-131</h2>
+        <p class="reviews">&#9733;4.6 | 958 reviews</p>
+        <p class="price">
+          &#8377;1999 <span class="scrtch">&#8377;2990</span>
+        </p>
+        <p class="yousave">You Save: ₹ 1891 (63%)</p>
+        <button class="add_to_cart_btn">Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Repeat for other products -->
+    <div class="product">
+      <div class="p_div">
+        <img class="products"
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569"
+          alt="boat air dropsxtra-132" />
+      </div>
+      <div class="price_details">
+        <h2 class="name">boat air dropsxtra-132</h2>
+        <p class="reviews">&#9733;4.7 | 98 reviews</p>
+        <p class="price">
+          &#8377;2999 <span class="scrtch">&#8377;4990</span>
+        </p>
+        <p class="yousave">You Save: ₹ 1800 (63%)</p>
+        <button class="add_to_cart_btn">Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Add more products as needed -->
+  </div>
+
+  <!-- Daily Deals Section -->
+  <h1 class="head">Daily Deals</h1>
+  <div id="daily_deals">
+    <!-- Repeat product structure for daily deals -->
+  </div>
+
+  <!-- Video Section -->
+  <div id="gif">
+    <div class="bhoooooom">
+      <div class="video">
+        <video width="320" height="400" controls autoplay loop>
+          <source
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_rq_O5tqSZIIgR13t0gUaN_card_thumbnail.mp4?v=8992424439691853575"
+            type="video/mp4" />
+        </video>
+      </div>
+      <div class="pric_details">
+        <h2 class="name">boat air drops-1312</h2>
+        <p class="reviews">&#9733;4.6 | 1113 reviews</p>
+        <p class="price">
+          &#8377;1999 <span class="scrtch">&#8377;2990</span>
+        </p>
+        <p class="yousave">You Save: ₹ 1891 (63%)</p>
+        <button class="add_to_cart_btn">Add to cart</button>
+      </div>
+    </div>
+
+    <!-- Repeat for other video sections -->
+  </div>
+
+  <!-- Footer Section -->
+  <div id="footer_img">
+    <img id="onwtwothree"
+      src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Fotter-Awards_11-02-2022_5d6a9e4a-d3d4-434b-8846-4403e92c3573_1995x.png?v=1651217615"
+      alt="Footer Awards" style="width: 100%" />
+  </div>
+
+  <div id="footer_part"></div>
+</body>
+
 </html>
 <script src="./scripts/index.js" type="module"></script>

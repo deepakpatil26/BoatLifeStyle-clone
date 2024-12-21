@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Account</title>
-    <link rel="stylesheet" href="./styles/signin.css" />
-  </head>
-  <body>
-    <form id="registerForm">
-      <div id="main">
-        <h1>Register</h1>
-        <p>Fill in the fields below:</p>
 
-        <input type="text" id="firstName" placeholder="First Name" required />
-        <input type="text" id="lastName" placeholder="Last Name" required />
-        <input type="email" id="email" placeholder="Email" required />
-        <input type="password" id="password" placeholder="Password" required />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <link rel="stylesheet" href="./styles/signin.css" />
+</head>
 
-        <input type="submit" id="submit" value="CREATE ACCOUNT" />
+<body>
+  <form id="registerForm">
+    <div id="main">
+      <h1>Register</h1>
+      <p>Fill in the fields below:</p>
 
-        <p>
-          Already have an account?
-          <a href="login.html" class="login-link">Login</a>
-        </p>
-      </div>
-    </form>
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
 
-    <!-- Footer -->
-    <div id="bottom">
+      <input type="submit" id="submit" value="CREATE ACCOUNT" />
+
       <p>
-        India's fastest-growing audio & wearables brand. From workouts to
-        adventures, boAt brings you the best in wireless earphones, headphones,
-        and smart wearables.
+        Already have an account?
+        <a href="login.html" class="login-link">Login</a>
       </p>
     </div>
+  </form>
 
-    <!-- JS -->
-    <script src="./scripts/signin.js" type="module"></script>
-  </body>
+  <!-- Footer -->
+  <div id="bottom">
+    <p>
+      India's fastest-growing audio & wearables brand. From workouts to
+      adventures, boAt brings you the best in wireless earphones, headphones,
+      and smart wearables.
+    </p>
+  </div>
+
+  <!-- JS -->
+  <script src="./scripts/signin.js" type="module"></script>
+</body>
+
 </html>

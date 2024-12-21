@@ -1,100 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wireless Headphones</title>
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/rockerz.css" />
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <div id="red_navbar">
-      <p>All Your favorite boAt products at heavy bargains. Shop NOW!</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireless Headphones</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/rockerz.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div id="red_navbar">
+    <p>All Your favorite boAt products at heavy bargains. Shop NOW!</p>
+  </div>
+
+  <!-- Main Navbar -->
+  <div id="main_navbar"></div>
+
+  <!-- Page Heading -->
+  <div id="largeimage">
+    <p>Home / Wireless Headphones</p>
+  </div>
+
+  <!-- Filter Section -->
+  <div id="filter">
+    <div id="filter1">
+      <img src="https://th.bing.com/th/id/OIP.JpbTXhedxvTh-oL-01FYiAAAAA?pid=ImgDet&w=354&h=354&rs=1" alt="Filter" />
+      <p>Show filter</p>
     </div>
-
-    <!-- Main Navbar -->
-    <div id="main_navbar"></div>
-
-    <!-- Page Heading -->
-    <div id="largeimage">
-      <p>Home / Wireless Headphones</p>
+    <div id="filter2">
+      <p>Sort by</p>
+      <select id="sort">
+        <option value="Featured">Featured</option>
+        <option value="Bestselling">Best Selling</option>
+        <option value="lowtohigh">Price, Low to High</option>
+        <option value="hightolow">Price, High to Low</option>
+        <option value="oldtonew">Date, Old to New</option>
+      </select>
     </div>
+  </div>
 
-    <!-- Filter Section -->
-    <div id="filter">
-      <div id="filter1">
-        <img
-          src="https://th.bing.com/th/id/OIP.JpbTXhedxvTh-oL-01FYiAAAAA?pid=ImgDet&w=354&h=354&rs=1"
-          alt="Filter"
-        />
-        <p>Show filter</p>
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <div id="filter_options">
+      <p>Filter</p>
+      <div id="availability">
+        <label><input type="checkbox" /> In Stock (41)</label>
+        <label><input type="checkbox" /> Out of Stock (43)</label>
       </div>
-      <div id="filter2">
-        <p>Sort by</p>
-        <select id="sort">
-          <option value="Featured">Featured</option>
-          <option value="Bestselling">Best Selling</option>
-          <option value="lowtohigh">Price, Low to High</option>
-          <option value="hightolow">Price, High to Low</option>
-          <option value="oldtonew">Date, Old to New</option>
-        </select>
-      </div>
-    </div>
-
-    <!-- Sidebar -->
-    <div id="sidebar">
-      <div id="filter_options">
-        <p>Filter</p>
-        <div id="availability">
-          <label><input type="checkbox" /> In Stock (41)</label>
-          <label><input type="checkbox" /> Out of Stock (43)</label>
-        </div>
-        <div id="price">
-          <span>Price</span>
-          <button id="low_high">Low to High</button>
-          <button id="high_low">High to Low</button>
-        </div>
+      <div id="price">
+        <span>Price</span>
+        <button id="low_high">Low to High</button>
+        <button id="high_low">High to Low</button>
       </div>
     </div>
+  </div>
 
-    <!-- Product Data -->
-    <div id="products_data">
-      <!-- Product data will be dynamically added -->
-    </div>
+  <!-- Product Data -->
+  <div id="products_data">
+    <!-- Product data will be dynamically added -->
+  </div>
 
-    <!-- Product Description -->
-    <div id="product_description">
-      <h1>boAt Headphone - Top Rated Bluetooth Headphone</h1>
-      <p>
-        Enjoy a seamless wireless experience with boAt Airdopes. Powered by
-        Insta Wake n’ Pair™ technology, connect instantly without hassle.
-      </p>
-      <p>
-        Active noise cancellation ensures superior call clarity and
-        entertainment without external interference.
-      </p>
-      <p>
-        Comfortable and secure with customizable silicone tips for a perfect
-        fit.
-      </p>
-      <p>
-        IPX-rated construction makes it rugged and sweat-resistant, perfect for
-        workouts and adventures.
-      </p>
-      <p>Available in various colors to match your vibe and style.</p>
-    </div>
+  <!-- Product Description -->
+  <div id="product_description">
+    <h1>boAt Headphone - Top Rated Bluetooth Headphone</h1>
+    <p>
+      Enjoy a seamless wireless experience with boAt Airdopes. Powered by
+      Insta Wake n’ Pair™ technology, connect instantly without hassle.
+    </p>
+    <p>
+      Active noise cancellation ensures superior call clarity and
+      entertainment without external interference.
+    </p>
+    <p>
+      Comfortable and secure with customizable silicone tips for a perfect
+      fit.
+    </p>
+    <p>
+      IPX-rated construction makes it rugged and sweat-resistant, perfect for
+      workouts and adventures.
+    </p>
+    <p>Available in various colors to match your vibe and style.</p>
+  </div>
 
-    <!-- Footer -->
-    <div id="footer">
-      <p>
-        India's fastest-growing audio & wearables brand. From workouts to
-        adventures, boAt has you covered!
-      </p>
-    </div>
+  <!-- Footer -->
+  <div id="footer">
+    <p>
+      India's fastest-growing audio & wearables brand. From workouts to
+      adventures, boAt has you covered!
+    </p>
+  </div>
 
-    <!-- JS -->
-    <script src="./scripts/rockerz.js" type="module"></script>
-  </body>
+  <!-- JS -->
+  <script src="./scripts/rockerz.js" type="module"></script>
+</body>
+
 </html>

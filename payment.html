@@ -1,181 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payment Page</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./styles/payment.css" />
-    <link rel="stylesheet" href="./styles/opt.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Page</title>
 
-  <body>
-    <!-- Top Banner -->
-    <div id="top">
-      <p>All your favourite boAt products at heavy bargains. Shop NOW!</p>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./styles/payment.css" />
+  <link rel="stylesheet" href="./styles/opt.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+  <!-- Top Banner -->
+  <div id="top">
+    <p>All your favourite boAt products at heavy bargains. Shop NOW!</p>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div id="logo">
+      <a href="index.html">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
+          alt="boAt Logo" />
+      </a>
     </div>
 
-    <!-- Navigation Bar -->
-    <nav id="navbar">
-      <div id="logo">
-        <a href="index.html">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
-            alt="boAt Logo"
-          />
+    <div id="nav-links">
+      <select id="shop">
+        <option value="">Shop</option>
+      </select>
+
+      <div>boAt | DC</div>
+
+      <a href="offerzone.html" id="offer">OfferZone</a>
+
+      <select id="more">
+        <option value="">More</option>
+        <option value="daily-deals.html">Daily Deals</option>
+        <option value="gifting.html">Gifting</option>
+        <option value="floats-boats.html">Do What Floats Your boAt</option>
+        <option value="meet-boatheards.html">Meet the boAtheads</option>
+        <option value="corporate-orders.html">Corporate Orders</option>
+        <option value="earn-rs100.html">Earn Rs.100</option>
+        <option value="careers.html">Careers</option>
+      </select>
+
+      <div class="search-bar">
+        <input id="search" type="text" placeholder="Search" />
+      </div>
+
+      <div class="icon-links">
+        <a href="Login.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
+            alt="Login" />
+        </a>
+        <a href="Gift.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt="Gift" />
+        </a>
+        <a href="cart.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
+            alt="Cart" />
         </a>
       </div>
+    </div>
+  </nav>
 
-      <div id="nav-links">
-        <select id="shop">
-          <option value="">Shop</option>
-        </select>
+  <!-- Main Content -->
+  <main id="container">
+    <h1>Payment Page</h1>
+    <hr />
 
-        <div>boAt | DC</div>
+    <!-- Delivery Address Section -->
+    <section id="address_div">
+      <p class="section-title">1. Delivery Address</p>
 
-        <a href="offerzone.html" id="offer">OfferZone</a>
+      <label for="full_name">Full Name</label>
+      <input type="text" id="full_name" placeholder="Enter your full name" />
 
-        <select id="more">
-          <option value="">More</option>
-          <option value="daily-deals.html">Daily Deals</option>
-          <option value="gifting.html">Gifting</option>
-          <option value="floats-boats.html">Do What Floats Your boAt</option>
-          <option value="meet-boatheards.html">Meet the boAtheads</option>
-          <option value="corporate-orders.html">Corporate Orders</option>
-          <option value="earn-rs100.html">Earn Rs.100</option>
-          <option value="careers.html">Careers</option>
-        </select>
+      <label for="address">Address</label>
+      <input type="text" id="address" placeholder="Enter your address" />
 
-        <div class="search-bar">
-          <input id="search" type="text" placeholder="Search" />
-        </div>
+      <label for="apartment">Apartment/Suite</label>
+      <input type="text" id="apartment" placeholder="Apartment/Suite number" />
 
-        <div class="icon-links">
-          <a href="Login.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
-              alt="Login"
-            />
-          </a>
-          <a href="Gift.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809"
-              alt="Gift"
-            />
-          </a>
-          <a href="cart.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
-              alt="Cart"
-            />
-          </a>
-        </div>
-      </div>
-    </nav>
+      <label for="city">City</label>
+      <input type="text" id="city" placeholder="Enter your city" />
 
-    <!-- Main Content -->
-    <main id="container">
-      <h1>Payment Page</h1>
-      <hr />
+      <label for="state">State</label>
+      <input type="text" id="state" placeholder="Enter your state" />
 
-      <!-- Delivery Address Section -->
-      <section id="address_div">
-        <p class="section-title">1. Delivery Address</p>
+      <label for="zipcode">Zip Code</label>
+      <input type="text" id="zipcode" placeholder="Enter zip code" />
 
-        <label for="full_name">Full Name</label>
-        <input type="text" id="full_name" placeholder="Enter your full name" />
+      <label for="contact">Contact Number</label>
+      <input type="tel" id="contact" placeholder="Enter your contact number" />
+    </section>
 
-        <label for="address">Address</label>
-        <input type="text" id="address" placeholder="Enter your address" />
+    <!-- Delivery Option Section -->
+    <section id="delivery_options">
+      <p class="section-title">2. Delivery Options</p>
+      <p>Please enter your address to calculate delivery options.</p>
+    </section>
 
-        <label for="apartment">Apartment/Suite</label>
-        <input
-          type="text"
-          id="apartment"
-          placeholder="Apartment/Suite number"
-        />
+    <!-- Payment Method Section -->
+    <section id="payment_method">
+      <p class="section-title">3. Payment Method</p>
 
-        <label for="city">City</label>
-        <input type="text" id="city" placeholder="Enter your city" />
+      <label for="card_number">Card Number</label>
+      <input type="number" id="card_number" placeholder="1234 5678 9012 3456" />
 
-        <label for="state">State</label>
-        <input type="text" id="state" placeholder="Enter your state" />
+      <label for="name_on_card">Name on Card</label>
+      <input type="text" id="name_on_card" placeholder="Enter cardholder name" />
 
-        <label for="zipcode">Zip Code</label>
-        <input type="text" id="zipcode" placeholder="Enter zip code" />
+      <label for="expiry_month">Expiry Month</label>
+      <select id="expiry_month">
+        <option value="">Month</option>
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+      </select>
 
-        <label for="contact">Contact Number</label>
-        <input
-          type="tel"
-          id="contact"
-          placeholder="Enter your contact number"
-        />
-      </section>
+      <label for="expiry_year">Expiry Year</label>
+      <select id="expiry_year">
+        <option value="">Year</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+      </select>
 
-      <!-- Delivery Option Section -->
-      <section id="delivery_options">
-        <p class="section-title">2. Delivery Options</p>
-        <p>Please enter your address to calculate delivery options.</p>
-      </section>
+      <label for="cvv">CVV</label>
+      <input type="number" id="cvv" placeholder="Enter CVV" />
+    </section>
 
-      <!-- Payment Method Section -->
-      <section id="payment_method">
-        <p class="section-title">3. Payment Method</p>
+    <button id="submitOrder" class="order-btn">Submit Order</button>
 
-        <label for="card_number">Card Number</label>
-        <input
-          type="number"
-          id="card_number"
-          placeholder="1234 5678 9012 3456"
-        />
+    <p id="tnc">
+      By placing an order, you agree to our
+      <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.
+    </p>
+  </main>
 
-        <label for="name_on_card">Name on Card</label>
-        <input
-          type="text"
-          id="name_on_card"
-          placeholder="Enter cardholder name"
-        />
+  <script src="./scripts/payment.js"></script>
+</body>
 
-        <label for="expiry_month">Expiry Month</label>
-        <select id="expiry_month">
-          <option value="">Month</option>
-          <option value="01">January</option>
-          <option value="02">February</option>
-          <option value="03">March</option>
-          <option value="04">April</option>
-        </select>
-
-        <label for="expiry_year">Expiry Year</label>
-        <select id="expiry_year">
-          <option value="">Year</option>
-          <option value="2023">2023</option>
-          <option value="2024">2024</option>
-        </select>
-
-        <label for="cvv">CVV</label>
-        <input type="number" id="cvv" placeholder="Enter CVV" />
-      </section>
-
-      <button id="submitOrder" class="order-btn">Submit Order</button>
-
-      <p id="tnc">
-        By placing an order, you agree to our
-        <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.
-      </p>
-    </main>
-
-    <script src="./scripts/payment.js"></script>
-  </body>
 </html>

@@ -1,122 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart</title>
-    <link rel="stylesheet" href="./styles/cart.css" />
-  </head>
-  <body>
-    <!-- Top Notification Bar -->
-    <div id="top">
-      <p>
-        Track it all with 700+ Active Modes.🏃‍♂️ Grab your boAt Xtend Sport @
-        ₹2499
-      </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="./styles/cart.css" />
+</head>
+
+<body>
+  <!-- Top Notification Bar -->
+  <div id="top">
+    <p>
+      Track it all with 700+ Active Modes.🏃‍♂️ Grab your boAt Xtend Sport @
+      ₹2499
+    </p>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div id="navbar">
+    <!-- Logo -->
+    <div>
+      <a href="index.html">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
+          alt="boAt Logo" />
+      </a>
     </div>
 
-    <!-- Navigation Bar -->
-    <div id="navbar">
-      <!-- Logo -->
+    <!-- Navigation Links -->
+    <div>
       <div>
-        <a href="index.html">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229"
-            alt="boAt Logo"
-          />
+        <select id="shop">
+          <option value="">Shop</option>
+        </select>
+      </div>
+      <div>boAt|DC</div>
+      <div id="offer">Offer Zone</div>
+      <div>
+        <select id="more">
+          <option value="">More</option>
+          <option value="">Daily Deals</option>
+          <option value="">Gifting</option>
+          <option value="">Do What Floats Your boAt</option>
+          <option value="">Meet the boAtheads</option>
+          <option value="">Corporate Orders</option>
+          <option value="">Earn Rs.100</option>
+          <option value="">Careers</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Search and Icons -->
+    <div>
+      <div>
+        <input id="search" type="text" placeholder="Search" />
+      </div>
+      <div>
+        <a href="Login.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
+            alt="Login Icon" />
         </a>
       </div>
+      <div>
+        <a href="Gift.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt="Gift Icon" />
+        </a>
+      </div>
+      <div>
+        <a href="Cart.html">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
+            alt="Cart Icon" />
+        </a>
+      </div>
+    </div>
+  </div>
 
-      <!-- Navigation Links -->
+  <!-- Cart Section -->
+  <h1 id="h1">Cart</h1>
+  <hr />
+
+  <!-- Cart Header -->
+  <div id="line">
+    <div>Product</div>
+    <div>Quantity</div>
+    <div>Total</div>
+  </div>
+
+  <!-- Cart Items and Summary -->
+  <div id="box">
+    <div id="vary">
+      <!-- Dynamically appended product data goes here -->
+    </div>
+
+    <!-- Cart Summary -->
+    <div id="fix">
       <div>
         <div>
-          <select id="shop">
-            <option value="">Shop</option>
-          </select>
+          <div>Total</div>
+          <div id="Totalpriceof">Rs.</div>
         </div>
-        <div>boAt|DC</div>
-        <div id="offer">Offer Zone</div>
-        <div>
-          <select id="more">
-            <option value="">More</option>
-            <option value="">Daily Deals</option>
-            <option value="">Gifting</option>
-            <option value="">Do What Floats Your boAt</option>
-            <option value="">Meet the boAtheads</option>
-            <option value="">Corporate Orders</option>
-            <option value="">Earn Rs.100</option>
-            <option value="">Careers</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- Search and Icons -->
-      <div>
-        <div>
-          <input id="search" type="text" placeholder="Search" />
-        </div>
-        <div>
-          <a href="Login.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048"
-              alt="Login Icon"
-            />
-          </a>
-        </div>
-        <div>
-          <a href="Gift.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809"
-              alt="Gift Icon"
-            />
-          </a>
-        </div>
-        <div>
-          <a href="Cart.html">
-            <img
-              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047"
-              alt="Cart Icon"
-            />
-          </a>
-        </div>
+        <p>Shipping & taxes calculated at checkout</p>
+        <a href="cash_delivery.html">
+          <button>Cash on Delivery / UPI</button>
+        </a>
+        <a href="payment.html">
+          <button>Pay via Card</button>
+        </a>
       </div>
     </div>
+  </div>
 
-    <!-- Cart Section -->
-    <h1 id="h1">Cart</h1>
-    <hr />
+  <script src="./scripts/cart.js"></script>
+</body>
 
-    <!-- Cart Header -->
-    <div id="line">
-      <div>Product</div>
-      <div>Quantity</div>
-      <div>Total</div>
-    </div>
-
-    <!-- Cart Items and Summary -->
-    <div id="box">
-      <div id="vary">
-        <!-- Dynamically appended product data goes here -->
-      </div>
-
-      <!-- Cart Summary -->
-      <div id="fix">
-        <div>
-          <div>
-            <div>Total</div>
-            <div id="Totalpriceof">Rs.</div>
-          </div>
-          <p>Shipping & taxes calculated at checkout</p>
-          <a href="cash_delivery.html">
-            <button>Cash on Delivery / UPI</button>
-          </a>
-          <a href="payment.html">
-            <button>Pay via Card</button>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <script src="./scripts/cart.js"></script>
-  </body>
 </html>
