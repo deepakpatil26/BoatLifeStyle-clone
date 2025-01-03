@@ -1,5 +1,5 @@
 // ================= Countdown Timer =================
-var countDownDate = new Date("Aug 30, 2022 15:37:25").getTime();
+var countDownDate = new Date("2025-12-31T23:59:59").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
