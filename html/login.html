@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+  </head>
+  <body>
+    <form>
+      <div id="main">
+        <h1>Login</h1>
+        <p>Please enter your e-mail and password:</p>
+        <div>
+          <i
+            class="fa-brands fa-facebook"
+            style="font-size: 24px; color: #4267b2"
+          ></i>
+          <i
+            class="fa-brands fa-google"
+            style="font-size: 24px; color: #4267b2"
+          ></i>
+        </div>
+        <input type="email" id="email" placeholder="E-mail" />
+        <input type="password" id="password" placeholder="passwod" />
+        <input type="submit" id="submit" name="Login" value="LOGIN" />
+        <h2>
+          New customer?
+          <a style="color: #5d5b5b" href="Sign_in.html">Create an account</a>
+        </h2>
+      </div>
+    </form>
+    <div id="bottom">
+      <p>
+        India's fastest growing audio & wearables brand. The most incredible
+        range of wireless earphones, earbuds, headphones, smart watches, and
+        home audio. From workouts to adventures, boAt will get you sailing!
+      </p>
+    </div>
+
+    <div id="footer_part"></div>
+
+    <script type="MODULE">
+      import {footer} from "../scripts/footer.js"
+      document.getElementById("footer_part").innerHTML = footer();
+
+      document.querySelector("form").addEventListener("submit",myfun)
+      let Arr = JSON.parse(localStorage.getItem("clientDetail")) || []
+      function myfun(event){
+      event.preventDefault()
+      let clientData = {
+      email:document.querySelector("#email").value,
+      password:document.querySelector("#password").value,
+      }
+
+      if (!email || !password) {
+        alert("Please enter both email and password.");
+        return;
+      }
+      if(checkSignin(clientData.email,clientData.password) === true){
+          localStorage.setItem("signin",JSON.stringify(clientData))
+          alert("Sign in successful")
+          window.location.href ="index.html"
+      }
+      else{
+          alert("Wrong Usernamr Or Password")
+      }
+      }
+      function checkSignin(email,password){
+      let filtered = Arr.filter(function(element){
+          return element.email === email && element.password === password
+      })
+      if(filtered.length>0){
+          return true
+      }
+      else{
+          return false
+      }
+      }
+    </script>
+  </body>
+</html>
