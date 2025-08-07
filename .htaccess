@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect root to index.html
+RewriteRule ^$ index.html [L]
+
+# If the requested file doesn't exist, try adding .html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Handle paths without .html extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ html/$1 [L]

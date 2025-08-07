@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link
-      rel="icon"
-      href="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - boAt Lifestyle</title>
+    <meta name="description" content="Discover premium audio products including wireless earbuds, headphones, smartwatches, and more at boAt Lifestyle.">
+    <link rel="icon" href="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="./scripts/app.js" defer></script>
+</head>
   <body>
     <button id="myBtn" title="Go to top">Top</button>
 
@@ -29,7 +27,61 @@
         /></a>
       </div>
       <div id="btn_div">
-        <button id="Shop_btn">Shop ▼</button>
+        <div class="dropdown">
+          <button id="Shop_btn" class="dropbtn">Shop ▼</button>
+          <div id="shopDropdown" class="dropdown-content">
+            <div class="dropdown-grid">
+              <div class="dropdown-column">
+                <a href="./html/airpods.html">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_540x.png?v=1612338251"
+                    alt=""
+                  />
+                  <span>True Wireless Earbuds</span>
+                </a>
+                <a href="./html/rockerz.html">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_540x.png?v=1612338387"
+                    alt=""
+                  />
+                  <span>Bluetooth Headphones</span>
+                </a>
+              </div>
+              <div class="dropdown-column">
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_720x.jpg?v=1648546494"
+                    alt=""
+                  />
+                  <span>Smart Watches</span>
+                </a>
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/latest_background_b4f773ca-05d9-41cc-a7cf-3104993ae895_540x.png?v=1612338356"
+                    alt=""
+                  />
+                  <span>Wired Headphones</span>
+                </a>
+              </div>
+              <div class="dropdown-column">
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/box-5_540x.png?v=1612338436"
+                    alt=""
+                  />
+                  <span>Wireless Speakers</span>
+                </a>
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Collections_5baef8f1-a67a-40a5-a537-4258c6caae6a_540x.png?v=1622452897"
+                    alt=""
+                  />
+                  <span>Soundbars</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <button>
           <a href="./html/dailyDeals.html">Daily deals</a>
         </button>
@@ -75,158 +127,46 @@
       </div>
     </div>
 
-    <!-- ------------------------------------------------------------- -->
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <!-- <div class="numbertext">1 / 3</div> -->
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone-banner_1_2000x.jpg?v=1659681411"
-          style="width: 100%"
-        />
-        <!-- <div class="text">Caption Text</div> -->
+    <!-- Hero Section with Slideshow -->
+    <section class="hero">
+      <div class="slideshow-container" aria-label="Featured products slideshow">
+        <!-- Slides will be dynamically inserted here by JavaScript -->
       </div>
-
-      <div class="mySlides fade">
-        <!-- <div class="numbertext">2 / 3</div> -->
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner-Wave-Select-Desktop_3_2000x.gif?v=1660741182"
-          style="width: 100%"
-        />
-        <!-- <div class="text">Caption Two</div> -->
+      
+      <!-- Slideshow Navigation -->
+      <div class="slideshow-nav">
+        <button class="slide-nav prev" aria-label="Previous slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="slide-dots" role="tablist">
+          <!-- Dots will be dynamically inserted here by JavaScript -->
+        </div>
+        <button class="slide-nav next" aria-label="Next slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
       </div>
-
-      <div class="mySlides fade">
-        <!-- <div class="numbertext">3 / 3</div> -->
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_3_2000x.jpg?v=1659936537"
-          style="width: 100%"
-        />
-        <!-- <div class="text">Caption Three</div> -->
+    </section>
+    <!-- Best Sellers Section -->
+    <section class="product-section" aria-labelledby="best-seller-heading">
+      <div class="section-header">
+        <h2 id="best-seller-heading" class="section-title">Best Sellers</h2>
+        <a href="#" class="view-all">View All</a>
       </div>
-
-      <div class="mySlides fade">
-        <!-- <div class="numbertext">3 / 3</div> -->
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/deal-of-the-day-aug-2_2000x.jpg?v=1660912362"
-          style="width: 100%"
-        />
-        <!-- <div class="text">Caption Three</div> -->
+      <div id="best_seller" class="product-grid">
+        <!-- Products will be dynamically inserted here by JavaScript -->
       </div>
+    </section>
 
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br />
-
-    <!-- The dots/circles -->
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <!-- -------------------------------------------------------------------------- -->
-    <!-- best seller  /////////////////////////////-->
-    <h1 class="head">Best Seller</h1>
-    <div id="best_seller">
-      <div>
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376"
-            alt=""
-          />
-        </div>
-        <div class="price_details">
-          <div class="prce_details_1stdiv">
-            <h2 class="name">boat air drops-131</h2>
-            <p class="reviews">&#9733;4.6 | 958 reviews</p>
-          </div>
-          <div class="ppp">
-            <h2 class="price">
-              &#8377;1999
-              <h2 class="scrtch">&#8377;2990</h2>
-            </h2>
-          </div>
-          <p class="yousave">You Save: ₹ 1891 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
+    <!-- Featured Products Section -->
+    <section class="product-section" aria-labelledby="featured-products-heading">
+      <div class="section-header">
+        <h2 id="featured-products-heading" class="section-title">Featured Products</h2>
+        <a href="#" class="view-all">View All</a>
       </div>
-
-      <div>
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569"
-            alt=""
-          />
-        </div>
-        <div class="price_details">
-          <div class="prce_details_1stdiv">
-            <h2 class="name">boat air dropsxtra-132</h2>
-            <p class="reviews">&#9733;4.7 | 098 reviews</p>
-          </div>
-          <div class="ppp">
-            <h2 class="price">
-              &#8377;2999
-              <h2 class="scrtch">&#8377;4990</h2>
-            </h2>
-          </div>
-          <p class="yousave">You Save: ₹ 1800 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
+      <div id="featured_products" class="product-grid">
+        <!-- Products will be dynamically inserted here by JavaScript -->
       </div>
-
-      <div>
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/xtend_black_400x.png?v=1650387008"
-            alt=""
-          />
-        </div>
-        <div class="price_details">
-          <div class="prce_details_1stdiv">
-            <h2 class="name">boat air head set-134</h2>
-            <p class="reviews">&#9733;4.7 | 5575 reviews</p>
-          </div>
-          <div class="ppp">
-            <h2 class="price">
-              &#8377;3999
-              <h2 class="scrtch">&#8377;9990</h2>
-            </h2>
-          </div>
-          <p class="yousave">You Save: ₹ 1691 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
-      </div>
-
-      <div>
-        <div class="p_div">
-          <img
-            class="products"
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/MG_400x.png?v=1657775492"
-            alt=""
-          />
-        </div>
-        <div class="price_details">
-          <div class="prce_details_1stdiv">
-            <h2 class="name">boat airbuds drops-135</h2>
-            <p class="reviews">&#9733;4.6 | 1435 reviews</p>
-          </div>
-          <div class="ppp">
-            <h2 class="price">
-              &#8377;2999
-              <h2 class="scrtch">&#8377;2990</h2>
-            </h2>
-          </div>
-          <p class="yousave">You Save: ₹ 1891 (63%)</p>
-          <button class="add_to_cart_btn">Add to cart</button>
-        </div>
-      </div>
-    </div>
+    </section>
     <!-- best seller end  -->
     <h1 class="head">Daily Deals</h1>
     <div id="best_seller">
@@ -448,6 +388,6 @@
 
     <!-- ============================================================= -->
     <div id="footer_part"></div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
-<script src="./scripts/index.js" type="MODULE"></script>

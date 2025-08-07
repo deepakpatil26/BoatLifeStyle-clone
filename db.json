@@ -1,0 +1,121 @@
+{
+  "navigation": {
+    "announcement": "All your favorite boAt products at heavy bargains. Shop NOW!",
+    "logo": {
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229",
+      "alt": "boAt Logo"
+    },
+    "menuItems": [
+      { "text": "Daily Deals", "link": "./html/dailyDeals.html" },
+      { "text": "Offer Zone", "link": "./html/offerzone.html" },
+      {
+        "text": "More",
+        "link": "./html/add_to_cart.html",
+        "hasDropdown": false
+      }
+    ],
+    "actionIcons": [
+      { "type": "account", "link": "./html/Sign_in.html", "alt": "Account" },
+      { "type": "gift", "link": "./html/giftcard.html", "alt": "Gift Cards" },
+      { "type": "cart", "link": "./html/cart.html", "alt": "Cart", "count": 0 }
+    ]
+  },
+  "dropdownCategories": [
+    {
+      "title": "True Wireless Earbuds",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_540x.png?v=1612338251",
+      "link": "./html/airpods.html"
+    },
+    {
+      "title": "Bluetooth Headphones",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_540x.png?v=1612338387",
+      "link": "./html/rockerz.html"
+    },
+    {
+      "title": "Smart Watches",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/pro_gear_720x.jpg?v=1648546494",
+      "link": "#"
+    },
+    {
+      "title": "Wired Headphones",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/latest_background_b4f773ca-05d9-41cc-a7cf-3104993ae895_540x.png?v=1612338356",
+      "link": "#"
+    },
+    {
+      "title": "Wireless Speakers",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/box-5_540x.png?v=1612338436",
+      "link": "#"
+    },
+    {
+      "title": "Soundbars",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Collections_5baef8f1-a67a-40a5-a537-4258c6caae6a_540x.png?v=1622452897",
+      "link": "#"
+    }
+  ],
+  "slideshow": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone-banner_1_2000x.jpg?v=1659681411",
+      "alt": "boAt Stone Speaker"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Banner-Wave-Select-Desktop_3_2000x.gif?v=1660741182",
+      "alt": "boAt Wave Select"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/A121-website-banner_3_2000x.jpg?v=1659936537",
+      "alt": "boAt Airdopes 121"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/deal-of-the-day-aug-2_2000x.jpg?v=1660912362",
+      "alt": "Deal of the Day"
+    }
+  ],
+  "bestSellers": [
+    {
+      "id": 1,
+      "name": "boAt Airdopes 131",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376",
+      "price": "₹1,299",
+      "originalPrice": "₹2,990",
+      "discount": "57% off",
+      "rating": 4.6,
+      "reviews": 958,
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "boAt Rockerz 255 Pro+",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-1_400x.png?v=1636104410",
+      "price": "₹1,299",
+      "originalPrice": "₹2,990",
+      "discount": "57% off",
+      "rating": 4.4,
+      "reviews": 1250,
+      "link": "#"
+    }
+  ],
+  "featuredProducts": [
+    {
+      "id": 3,
+      "name": "boAt Airdopes 141",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/141_1_400x.png?v=1642405571",
+      "price": "₹1,399",
+      "originalPrice": "₹3,990",
+      "discount": "65% off",
+      "rating": 4.5,
+      "reviews": 1200,
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "name": "boAt Rockerz 550",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-550-blue_1_400x.png?v=1625046231",
+      "price": "₹1,999",
+      "originalPrice": "₹4,990",
+      "discount": "60% off",
+      "rating": 4.7,
+      "reviews": 980,
+      "link": "#"
+    }
+  ]
+}

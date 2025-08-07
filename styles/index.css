@@ -27,6 +27,8 @@ body {
   height: 50px;
   margin-top: 10px;
   display: flex;
+  position: relative;
+  z-index: 1000;
 }
 #boat_icon {
   height: 40px;
@@ -35,16 +37,140 @@ body {
 }
 #btn_div {
   text-align: center;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   margin-left: 250px;
-  margin-top: 20px;
+  height: 100%;
+  margin-top: 0;
+  position: relative;
 }
-#btn_div > button {
+#btn_div > button, .dropbtn {
   color: aliceblue;
   background-color: black;
   font-family: Sans-serif;
   font-size: 16px;
   margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  height: 100%;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  z-index: 1000;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 100%;
+  width: 800px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease;
+  margin-top: 5px;
+  border: 1px solid #eee;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown:hover .dropbtn { background-color: #333; }
+
+/* Dropdown Grid Layout */
+.dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.dropdown-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropdown-column a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-column a:hover {
+  background: #f8f8f8;
+  transform: translateY(-1px);
+}
+
+.dropdown-column img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  transition: transform 0.2s ease;
+}
+
+.dropdown-column a:hover img {
+  transform: scale(1.03);
+}
+
+.dropdown-column span {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+}
+
+.dropbtn::after {
+  content: '▼';
+  font-size: 9px;
+  margin-left: 4px;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.dropdown-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  transition: transform 0.3s;
+}
+
+.dropdown-content a:hover img {
+  transform: scale(1.03);
+}
+
+.dropdown-content span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
 }
 #Shop_btn:hover,
 #Shop_btn:hover {

@@ -2,215 +2,335 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>giftcard</title>
+    <title>Gift Cards - boAt Lifestyle</title>
+    <meta
+      name="description"
+      content="Purchase boAt gift cards for your loved ones. The perfect gift for music lovers and tech enthusiasts."
+    />
     <link
       rel="icon"
-      href="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg"
-      type="image/x-icon"
+      href="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt_logo_small_3067af8c-a83e-4ff8-bbd8-fff9fa1a64f6_32x32.png"
+      type="image/png"
     />
-    <link rel="stylesheet" href="../styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../styles/giftcard.css" />
   </head>
   <body>
-    <div id="fake_div">
-      <div id="main_navbar"></div>
-    </div>
-    <div id="topBox">
-      <div id="box1">
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-500_72x.png?v=1615270910"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-1000_72x.png?v=1615270910"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-2000_72x.png?v=1615270911"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-card-5000_72x.png?v=1615270911"
-            alt=""
-          />
-        </div>
-      </div>
-      <div id="box2">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-2000_612x.png?v=1615270911"
-          alt=""
-        />
-      </div>
-      <div id="box3">
-        <h1>Gift Card</h1>
-        <div class="sbox1">
-          <div>
-            <p>&#9734; &#9734; &#9734; &#9734; &#9734;</p>
-            <p>5.0 | 32 Reviews</p>
+    <!-- Header will be inserted here by JavaScript -->
+    <div id="header-placeholder"></div>
+
+    <main class="giftcard-hero">
+      <div class="container">
+        <h1 class="section-title">boAt Gift Cards</h1>
+        <div class="giftcard-container">
+          <!-- Thumbnails -->
+          <div class="giftcard-thumbnails">
+            <div class="thumbnail active" data-amount="500">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-500_72x.png"
+                alt="₹500 Gift Card"
+              />
+            </div>
+            <div class="thumbnail" data-amount="1000">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-1000_72x.png"
+                alt="₹1000 Gift Card"
+              />
+            </div>
+            <div class="thumbnail" data-amount="2000">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-2000_72x.png"
+                alt="₹2000 Gift Card"
+              />
+            </div>
+            <div class="thumbnail" data-amount="5000">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-card-5000_72x.png"
+                alt="₹5000 Gift Card"
+              />
+            </div>
           </div>
-        </div>
-        <h2>Denominations :₹500</h2>
-        <div id="sbox2">
-          <div class="price1">
-            <div><h3>&#x20B9; 500</h3></div>
-            <div><h3>&#x20B9; 1000</h3></div>
+
+          <!-- Main Image -->
+          <div class="giftcard-preview">
+            <img
+              id="mainGiftcardImage"
+              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-500_540x.png"
+              alt="Gift Card Preview"
+            />
           </div>
-          <div class="price2">
-            <div><h3>&#x20B9; 2000</h3></div>
-            <div><h3>&#x20B9; 5000</h3></div>
-          </div>
-        </div>
-        <div id="sbox3"></div>
-      </div>
-      <div id="box4">
-        <h1>&#x20B9; 500</h1>
-        <p>Inclusive of all taxes</p>
-        <div class="stock">
-          <h1>In Stock</h1>
-          <p>Currently in 291 carts</p>
-        </div>
-        <div>
-          <div class="sign1">
-            <div>
-              <p>&#9601;</p>
-              <h1>1</h1>
-              <p>&#8724;</p>
+
+          <!-- Product Info -->
+          <div class="giftcard-info">
+            <h1 class="giftcard-title">boAt Gift Card</h1>
+
+            <div class="rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-count">4.5 | 32 Reviews</span>
             </div>
 
-            <div><p>Quantity</p></div>
+            <div class="giftcard-price" id="giftcardPrice">₹500</div>
+            <p class="giftcard-tax">Inclusive of all taxes</p>
+
+            <!-- Denomination Selector -->
+            <div class="denomination-selector">
+              <h3 class="denomination-title">Select Denomination</h3>
+              <div class="denomination-options">
+                <div class="denomination-option active" data-amount="500">
+                  ₹500
+                </div>
+                <div class="denomination-option" data-amount="1000">₹1000</div>
+                <div class="denomination-option" data-amount="2000">₹2000</div>
+                <div class="denomination-option" data-amount="5000">₹5000</div>
+              </div>
+            </div>
+
+            <!-- Quantity Selector -->
+            <div class="quantity-selector">
+              <label for="quantity">Quantity:</label>
+              <div class="quantity-controls">
+                <button
+                  class="quantity-btn"
+                  id="decreaseQty"
+                  aria-label="Decrease quantity"
+                >
+                  -
+                </button>
+                <input
+                  type="number"
+                  id="quantity"
+                  class="quantity-input"
+                  value="1"
+                  min="1"
+                  max="10"
+                  aria-label="Quantity"
+                />
+                <button
+                  class="quantity-btn"
+                  id="increaseQty"
+                  aria-label="Increase quantity"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+              <button class="btn btn-add-to-cart">
+                <i class="fas fa-shopping-cart"></i> Add to Cart
+              </button>
+              <button class="btn btn-buy-now">
+                <i class="fas fa-bolt"></i> Buy Now
+              </button>
+            </div>
           </div>
         </div>
-        <button class="btn1"><h3>ADD TO CART</h3></button>
-        <button class="btn2"><h3>BUY NOW</h3></button>
       </div>
-    </div>
+    </main>
 
-    <div id="topBox2">
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-1b.png?v=1654855622"
-          alt=""
-        />
-        <h3>1 Year Warranty</h3>
-      </div>
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-3b.png?v=1654855622"
-          alt=""
-        />
-        <h3>7 Days Replacement</h3>
-      </div>
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-2b.png?v=1654855622"
-          alt=""
-        />
-        <h3>Free Shipping</h3>
-      </div>
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-4b.png?v=1654855622"
-          alt=""
-        />
-        <h3>Secure Checkout</h3>
-      </div>
-    </div>
-    <div id="topBox3">
-      <div>
-        <h2>DESCRIPTION</h2>
-      </div>
-      <div>
-        <h2>REVIEWS (32)</h2>
-      </div>
-    </div>
-    <div id="topBox4">
-      <h1>Let Music Be the Best Gift</h1>
-      <p>
-        Whether fitness or groove sessions, gift your friends and family
-        something that fits one and all! The classist, chic, and fiesty
-        collection of headphones, earphones, speakers and so much more! Let them
-        rule the world with a gift that becomes a fashion statement.
-      </p>
-    </div>
-    <div id="midBox1">
-      <div class="pk">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Image-BK-2.png?v=1604672941"
-          alt=""
-        />
-      </div>
-      <div>
-        <h1>Things You Should Know</h1>
-        <div id="ptype">
-          <h3>
-            &#9744; Gift Card can be redeemed only on www.boat-lifestyle.com
-          </h3>
-          <h3>
-            &#9744; boAt Gift Cards are valid for 12 months from the date of
-            purchase
-          </h3>
-          <h3>&#9744; Once purchased, a gift card cannot be cancelled</h3>
-          <h3>
-            &#9744; boAt products bought using boAt gift card cannot be
-            cancelled or returned.
-          </h3>
-          <h3>
-            &#9744; Products can only be exchanged with another piece of the
-            same product in case a defective item is received
-          </h3>
+    <!-- Features Section -->
+    <section class="features-section container">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-1b.png"
+            alt="Warranty"
+          />
+        </div>
+        <div class="feature-text">
+          <h3>1 Year Warranty</h3>
+          <p>On all products</p>
         </div>
       </div>
-    </div>
-    <div id="midBox2">
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/158535011131407578939490airdopes-481-2.png?v=1604672765"
-          alt=""
-        />
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-3b.png"
+            alt="Replacement"
+          />
+        </div>
+        <div class="feature-text">
+          <h3>7 Days Replacement</h3>
+          <p>No questions asked</p>
+        </div>
       </div>
-      <div>
-        <h1>A Gift To Get The Party Started</h1>
-        <p>
-          Who doesn’t love speakers? Or something to power their dance sessions?
-          The dopest collection of fitness, travel, and even WFH friendly
-          headphones! All gifts are special, some just get remembered more.
-        </p>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-2b.png"
+            alt="Shipping"
+          />
+        </div>
+        <div class="feature-text">
+          <h3>Free Shipping</h3>
+          <p>On orders over ₹999</p>
+        </div>
       </div>
-    </div>
-    <div id="bottom1">
-      <div>
-        <img
-          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/banner1_3.png?v=1604671811"
-          alt=""
-        />
+      <div class="feature-card">
+        <div class="feature-icon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/icon-4b.png"
+            alt="Secure Checkout"
+          />
+        </div>
+        <div class="feature-text">
+          <h3>Secure Checkout</h3>
+          <p>100% secure payment</p>
+        </div>
       </div>
-      <div>
-        <h1>The Only Rule Is To Be Limitless</h1>
-        <p>
-          Classy, casual, chic, or funky. Headphones and earphones that speak to
-          every fashion. Let your gift be your friends' style statement.
-        </p>
-      </div>
-    </div>
+    </section>
 
-    <div id="footer_part"></div>
-    <script type="module">
-      import main_navbar from "../scripts/components.js";
-      let container = document.getElementById("main_navbar");
-      let navbar = main_navbar();
-      container.innerHTML = navbar;
+    <!-- Tabs Section -->
+    <section class="tabs-section">
+      <div class="container">
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="description">
+            Description
+          </button>
+          <button class="tab-btn" data-tab="reviews">Reviews (32)</button>
+        </div>
 
-      import { footer } from "../scripts/footer.js";
-      document.getElementById("footer_part").innerHTML = footer();
+        <div id="description" class="tab-content active">
+          <div class="content-section bg-red">
+            <h2>Let Music Be the Best Gift</h2>
+            <p>
+              Whether fitness or groove sessions, gift your friends and family
+              something that fits one and all! The classist, chic, and feisty
+              collection of headphones, earphones, speakers and so much more!
+              Let them rule the world with a gift that becomes a fashion
+              statement.
+            </p>
+          </div>
+
+          <div class="content-section bg-black">
+            <div class="container">
+              <div class="flex-container">
+                <div class="flex-item">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Image-BK-2.png"
+                    alt="Gift Card Details"
+                  />
+                </div>
+                <div class="flex-item">
+                  <h2>Things You Should Know</h2>
+                  <ul class="checklist">
+                    <li>
+                      Gift Card can be redeemed only on www.boat-lifestyle.com
+                    </li>
+                    <li>
+                      boAt Gift Cards are valid for 12 months from the date of
+                      purchase
+                    </li>
+                    <li>Once purchased, a gift card cannot be cancelled</li>
+                    <li>
+                      boAt products bought using boAt gift card cannot be
+                      cancelled or returned
+                    </li>
+                    <li>
+                      Products can only be exchanged with another piece of the
+                      same product in case a defective item is received
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviews" class="tab-content">
+          <div class="reviews-container">
+            <h3>Customer Reviews</h3>
+            <p>
+              This gift card has an average rating of 4.5 stars from 32 reviews.
+            </p>
+            <div class="review-actions">
+              <button class="btn">Write a Review</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer will be inserted here by JavaScript -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      // Handle thumbnail click
+      document.querySelectorAll(".thumbnail").forEach((thumb) => {
+        thumb.addEventListener("click", function () {
+          // Update active thumbnail
+          document
+            .querySelectorAll(".thumbnail")
+            .forEach((t) => t.classList.remove("active"));
+          this.classList.add("active");
+
+          // Update main image and price
+          const amount = this.dataset.amount;
+          document.getElementById("giftcardPrice").textContent = `₹${amount}`;
+          document.getElementById(
+            "mainGiftcardImage"
+          ).src = `https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Gift-Card-${amount}_540x.png`;
+        });
+      });
+
+      // Handle denomination option click
+      document.querySelectorAll(".denomination-option").forEach((option) => {
+        option.addEventListener("click", function () {
+          // Update active option
+          document
+            .querySelectorAll(".denomination-option")
+            .forEach((opt) => opt.classList.remove("active"));
+          this.classList.add("active");
+
+          // Update price and thumbnail
+          const amount = this.dataset.amount;
+          document.getElementById("giftcardPrice").textContent = `₹${amount}`;
+          document.querySelector(`.thumbnail[data-amount="${amount}"]`).click();
+        });
+      });
+
+      // Handle quantity controls
+      const quantityInput = document.getElementById("quantity");
+      document.getElementById("decreaseQty").addEventListener("click", () => {
+        let value = parseInt(quantityInput.value);
+        if (value > 1) quantityInput.value = value - 1;
+      });
+      document.getElementById("increaseQty").addEventListener("click", () => {
+        let value = parseInt(quantityInput.value);
+        if (value < 10) quantityInput.value = value + 1;
+      });
+
+      // Handle tab switching
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          // Update active tab
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) => b.classList.remove("active"));
+          this.classList.add("active");
+
+          // Show corresponding content
+          const tabId = this.dataset.tab;
+          document
+            .querySelectorAll(".tab-content")
+            .forEach((content) => content.classList.remove("active"));
+          document.getElementById(tabId).classList.add("active");
+        });
+      });
+
+      // Load header and footer
+      document.addEventListener("DOMContentLoaded", () => {
+        // This would be replaced with actual header/footer loading logic
+        console.log("Page loaded - header and footer would be loaded here");
+      });
     </script>
   </body>
 </html>
